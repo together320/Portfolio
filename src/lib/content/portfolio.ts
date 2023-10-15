@@ -18,20 +18,20 @@ export const author = {
 };
 
 export const seoData = {
-  title: 'Vatsal Singh | Front-End Developer',
+  title: 'Juraj Pusic | Software Developer',
   description:
-    'Vatsal Singh is a front-end developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
+    'Juraj Pusic is a software developer who specializes in building and maintaining web & mobile application.',
   author: author.name,
   image:
     'https://user-images.githubusercontent.com/68834718/217467445-0b0d2d63-f8ad-4702-8474-814eb2cbb3be.png',
   url: 'https://vatsalsinghkv.vercel.app/',
   keywords: [
-    'Vatsal',
-    'Vatsal Singh',
-    '@vatsalsinghkv',
-    'vatsalsinghkv',
+    'Juraj',
+    'Juraj Pusic',
+    '@jurajpusic',
+    'jurajpusic',
     'Portfolio',
-    'Vatsal Portfolio ',
-    'Vatsal Singh Portfolio',
+    'Juraj Portfolio ',
+    'Juraj Pusic Portfolio',
   ],
 };

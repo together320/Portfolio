@@ -15,5 +15,5 @@ export const aboutSection: AboutSectionType = {
         'Web3',
     ],
     },
-    img: '/jurajpusic.jpg',
+    img: '/static/jurajpusic.jpg',
 };
