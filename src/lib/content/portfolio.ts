@@ -7,16 +7,14 @@
 import { StringKeyValueType } from '../types';
 
 export const socialLinks: StringKeyValueType = {
-  facebook: 'https://www.facebook.com/vatsalsinghkv',
-  instagram: 'https://www.instagram.com/vatsalsinghkv',
-  twitter: 'https://twitter.com/vatsalsinghkv',
-  github: 'https://github.com/vatsalsinghkv',
-  linkedin: 'https://www.linkedin.com/in/vatsalsinghkv/',
+  twitter: 'https://twitter.com/juracija',
+  github: 'https://github.com/together320',
+  linkedin: 'https://www.linkedin.com/in/juraj-pusic/',
 };
 
 export const author = {
-  name: 'Vatsal Singh',
-  email: 'vatsalsinghkv@gmail.com',
+  name: 'Juraj Pusic',
+  email: 'jurapusic056@gmail.com',
 };
 
 export const seoData = {

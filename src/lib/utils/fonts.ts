@@ -1,4 +1,5 @@
-import { Inter, Roboto_Mono } from 'next/font/google';
+import { Inter, Roboto_Mono, Rubik } from 'next/font/google';
+import localFont from 'next/font/local'
 
 const inter = Inter({
   variable: '--font-inter',
@@ -22,6 +23,32 @@ const robotoMono = Roboto_Mono({
   ],
 });
 
-const fontVariables = `${inter.variable} ${robotoMono.variable}`;
+const rubik = localFont({
+  variable : '--font-rubik',
+  src: [
+    {
+      path: './custom/Rubik-Regular.ttf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: './custom/Rubik-Italic.ttf',
+      weight: '400',
+      style: 'italic',
+    },
+    {
+      path: './custom/Rubik-Bold.ttf',
+      weight: '700',
+      style: 'normal',
+    },
+    {
+      path: './custom/Rubik-BoldItalic.ttf',
+      weight: '700',
+      style: 'italic',
+    },
+  ],
+})
+
+const fontVariables = `${inter.variable} ${robotoMono.variable} ${rubik.variable}`;
 
 export default fontVariables;

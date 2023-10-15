@@ -8,10 +8,10 @@ export const socialSection: SocialSectionType = {
         icon: 'tabler:brand-github',
         url: socialLinks.github,
     },
-    {
-        icon: 'mdi:instagram',
-        url: socialLinks.instagram,
-    },
+    // {
+    //     icon: 'mdi:instagram',
+    //     url: socialLinks.instagram,
+    // },
     {
         icon: 'lucide:twitter',
         url: socialLinks.twitter,
@@ -20,9 +20,9 @@ export const socialSection: SocialSectionType = {
         icon: 'lucide:linkedin',
         url: socialLinks.linkedin,
     },
-    {
-        icon: 'lucide:facebook',
-        url: socialLinks.facebook,
-    },
+    // {
+    //     icon: 'lucide:facebook',
+    //     url: socialLinks.facebook,
+    // },
     ],
 };

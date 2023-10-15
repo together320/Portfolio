@@ -24,10 +24,9 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Vatsal Singh, an artist as well as crazy full stack
-            web developer who wants to explore every tech stack.
+            Passionate and results-driven software developer with 7+ years of professional experience with a wide range of technologies. On every project, my goal is to reach max efficiency, learn from every experience, and use both to improve the product. I have worked with Go, Python, Angular, TypeScript, Java, and more. I can provide high-quality solutions while maintaining efficiency and enjoys challenges, self-improvement, and providing top services. Currently focusing on full-stack, scalable applications development.
           </p>
-          <p>
+          {/* <p>
             Fast-forward to today, and I’ve had the privilege of working at a
             start-up -{' '}
             <Link
@@ -38,9 +37,9 @@ const About = () => {
               Pixelwand
             </Link>
             .
-          </p>
+          </p> */}
           <p>
-            My main focus these days is learning mobile development and finding
+            I'm currently focusing on fullstack development and finding
             a decent job.
           </p>
 

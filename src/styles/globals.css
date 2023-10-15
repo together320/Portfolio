@@ -52,3 +52,7 @@
 .heading-secondary {
   @apply text-3xl sm:text-4xl capitalize font-medium mb-8 sm:mb-12 text-dark-2;
 }
+
+html{
+  font-family: inter;
+}

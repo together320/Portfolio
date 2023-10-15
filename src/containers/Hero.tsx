@@ -34,23 +34,23 @@ const Hero = () => {
         {subtitle}
       </motion.p>
 
-      <div className="max-w-5xl text-4xl font-bold tracking-tighter md:text-7xl">
+      <div className="max-w-5xl text-4xl font-bold md:text-7xl">
         <motion.h1
           variants={slideUp({ delay: getAnimationDelay(1) })}
           initial="hidden"
           animate="show"
-          className="text-slate-900 dark:text-slate-200 capitalize mb-2 leading-[1.1]"
+          className="text-slate-900 dark:text-slate-200 capitalize mb-5 leading-[1.1]"
         >
           {title}
         </motion.h1>
-        <motion.h1
+        <motion.h3
           variants={slideUp({ delay: getAnimationDelay(2) })}
           initial="hidden"
           animate="show"
-          className="leading-[1.2]"
+          className="leading-[1.2] text-2xl md:text-4xl"
         >
           {tagline}
-        </motion.h1>
+        </motion.h3>
       </div>
 
       <motion.p

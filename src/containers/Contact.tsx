@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import { contactSection } from '@/lib/content/contact';
 
 import { Button, Wrapper } from '@/components';
@@ -21,9 +23,65 @@ const Contact = () => {
         <p key={i}>{paragraph}</p>
       ))}
 
-      <Button type="link" size="lg" href={link} center className="mt-12">
+      {/* <Button type="link" size="lg" href={link} center className="mt-12">
         Say Hello
-      </Button>
+      </Button> */}
+      <div className="flex justify-between mt-20">
+        <a href="https://linkedin.com/in/juraj-pusic" target="_blank" rel="noopener noreferrer">
+          <Image
+            src={"https://img.icons8.com/color/2x/linkedin.png"}
+            alt={"linkedin"}
+            width={50}
+            height={50}
+            className="rounded shadow-xl"
+          />
+        </a>
+        <a href="https://twitter.com/juracija" target="_blank" rel="noopener noreferrer">
+          <Image
+            src={"https://img.icons8.com/color/2x/twitter.png"}
+            alt={"twitter"}
+            width={50}
+            height={50}
+            className="rounded shadow-xl"
+          />
+        </a>
+        <a href="mailto:jurapusic056@gmail.com" target="_blank" rel="noopener noreferrer">
+          <Image
+            src={"https://img.icons8.com/fluency/2x/gmail-new.png"}
+            alt={"gmail"}
+            width={50}
+            height={50}
+            className="rounded shadow-xl"
+          />
+        </a>
+        <a href="https://t.me/tough" target="_blank" rel="noopener noreferrer">
+          <Image
+            src={"https://img.icons8.com/color/2x/telegram-app.png"}
+            alt={"gmail"}
+            width={50}
+            height={50}
+            className="rounded shadow-xl"
+          />
+        </a>
+        <a href="https://join.skype.com/invite/Cwkygw8rMRwL" target="_blank" rel="noopener noreferrer">
+          <Image
+            src={"https://img.icons8.com/color/2x/skype.png"}
+            alt={"skype"}
+            width={50}
+            height={50}
+            className="rounded shadow-xl"
+          />
+        </a>
+        <a href="https://discord.gg/M7VTBHJb" target="_blank" rel="noopener noreferrer">
+          <Image
+            src={"https://img.icons8.com/color/2x/discord.png"}
+            alt={"discord"}
+            width={50}
+            height={50}
+            className="rounded shadow-xl"
+          />
+        </a>
+      </div>
     </Wrapper>
   );
 };

@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
+  generateBuildId: async () => {
+    // You can, for example, get the latest git commit hash here
+    return 'my-build-id'
+  },
   images: {
     remotePatterns: [
       {
@@ -11,6 +15,11 @@ module.exports = {
       {
         protocol: 'https',
         hostname: 'github-production-user-asset-6210df.s3.amazonaws.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.icons8.com',
         pathname: '/**',
       },
     ],
