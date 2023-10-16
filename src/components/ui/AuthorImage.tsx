@@ -1,5 +1,4 @@
 import Image from 'next/image';
-
 type Props = { src: string; alt: string };
 
 const AuthorImage = ({ src, alt }: Props) => {
