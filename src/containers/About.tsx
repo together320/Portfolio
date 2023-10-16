@@ -24,7 +24,7 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Passionate and results-driven software developer with 7+ years of professional experience with a wide range of technologies. On every project, my goal is to reach max efficiency, learn from every experience, and use both to improve the product. I have worked with Go, Python, Angular, TypeScript, Java, and more. I can provide high-quality solutions while maintaining efficiency and enjoys challenges, self-improvement, and providing top services. Currently focusing on full-stack, scalable applications development.
+            Passionate and results-driven software developer with 7+ years of professional experience with a wide range of technologies. On every project, my goal is to reach max efficiency, learn from every experience, and use both to improve the product. I have worked with Go, Python, Angular, TypeScript, Java, and more. I can provide high-quality solutions while maintaining efficiency and enjoys challenges, self-improvement, and providing top services.
           </p>
           {/* <p>
             Fast-forward to today, and I’ve had the privilege of working at a

@@ -54,7 +54,7 @@ const Contact = () => {
             className="rounded shadow-xl"
           />
         </a>
-        <a href="https://t.me/tough" target="_blank" rel="noopener noreferrer">
+        <a href="https://t.me/jurapusic056/" target="_blank" rel="noopener noreferrer">
           <Image
             src={"https://img.icons8.com/color/2x/telegram-app.png"}
             alt={"gmail"}

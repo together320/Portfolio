@@ -19,7 +19,7 @@ export const skillsSection: SkillsSectionType = {
         'Database : MongoDB, PostgreSQL, Redis, MySQL, GraphQL, Amazon Redshift',
         ],
         softwareSkills: [
-        { name: 'Go', icon: 'vscode-icons:file-type-html' },
+        { name: 'Go', icon: 'vscode-icons:file-type-go' },
         { name: 'Python', icon: 'vscode-icons:file-type-python' },
         { name: 'JavaScript', icon: 'vscode-icons:file-type-js-official' },
         {
