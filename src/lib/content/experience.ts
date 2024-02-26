@@ -6,7 +6,7 @@ export const experienceSection: ExperienceSectionType = {
     {
         company: 'Searchlight',
         companyUrl: 'https://www.searchlight.ai/',
-        role: 'Sr. Software Engineer',
+        role: 'Sr. Full Stack Developer',
         started: 'January 2021',
         upto: 'September 2023',
         tasks: [

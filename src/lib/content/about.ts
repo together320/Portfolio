@@ -7,12 +7,12 @@ export const aboutSection: AboutSectionType = {
     list: {
     title: 'Here are a few technologies I’ve been working with recently:',
     items: [
-        'Go',
-        'GraphQL',
-        'ExpressJs',
         'React',
+        'Angular',
+        'Spring Boot',
+        'Django',
         'TypeScript',
-        'Web3',
+        'Objective C',
     ],
     },
     img: '/static/jurajpusic.jpg',
